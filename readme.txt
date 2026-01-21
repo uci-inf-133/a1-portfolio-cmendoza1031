@@ -78,11 +78,6 @@ Approximately 8-10 hours total:
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 
-Design Inspiration:
-- https://jaslavie.com/ (Jasmine Wu portfolio - layout and currently section inspiration)
-- https://askclera.com (My own project design system for consistency)
-- https://ui.aceternity.com/components (Glowing effect and animation inspiration)
-
 Technical Resources:
 - https://fonts.google.com/ (Font selection: Syne, Inter, JetBrains Mono)
 - https://fontawesome.com/icons (Icon library)
@@ -107,7 +102,7 @@ Validators:
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-No classmates were consulted for this assignment. All work is original, with the design inspired by publicly available portfolios credited above.
+No classmates were consulted for this assignment. All work is original.
 
 7. Is there anything special we need to know in order to run your code?
 
@@ -134,8 +129,6 @@ The following images need to be added to the /images/ folder:
 - course-projects.jpg: Representative image for course work
 - family.jpg         : Personal/family photo (siblings)
 
-Note: The contact form action is set to a Formspree placeholder URL. For production use, replace with actual form endpoint or backend handler.
+Note: The contact form action is set to a Formspree placeholder URL. For production use, I will need to replace with actual form endpoint or backend handler.
 
 ---
-
-Thank you for reviewing my portfolio! I put significant effort into creating something I would be proud to show potential employers, while ensuring it meets all assignment requirements. The dark theme with glowing accents reflects my personal aesthetic and passion for modern, polished interfaces.
