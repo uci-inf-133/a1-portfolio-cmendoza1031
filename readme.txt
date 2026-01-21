@@ -120,15 +120,6 @@ File Structure:
 - styles.css      : All styling with CSS custom properties, animations, responsive design
 - images/         : Folder for images (placeholder paths used - replace with actual images)
 
-Image Placeholders:
-The following images need to be added to the /images/ folder:
-- profile.jpg        : Professional headshot or portrait
-- clera-preview.jpg  : Screenshot of the Clera app dashboard
-- clera-marketing.jpg: Screenshot of askclera.com homepage
-- portfolio-preview.jpg: Screenshot of this portfolio
-- course-projects.jpg: Representative image for course work
-- family.jpg         : Personal/family photo (siblings)
-
 Note: The contact form action is set to a Formspree placeholder URL. For production use, I will need to replace with actual form endpoint or backend handler.
 
 ---
