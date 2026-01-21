@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Cristian Fernando Mendoza
+EMAIL: cristian@askclera.com
+COURSE: INF 133 - User Interaction Software
+ASSIGNMENT: A1 - Responsive Portfolio
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Cristian Fernando Mendoza">
+  <meta name="description" content="Projects by Cristian Mendoza - Showcasing AI-powered solutions and software engineering work including Clera, an AI investment advisor.">
+  
+  <title>Projects | Cristian Mendoza</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Background Gradient Orbs -->
+  <div class="bg-gradient-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-gradient-orb orb-2" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo" aria-label="Cristian Mendoza - Home">
+        Cristian Mendoza
+      </a>
+      
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active" aria-current="page">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://www.linkedin.com/in/cristianfmendoza" target="_blank" rel="noopener noreferrer">LinkedIn <i class="fas fa-external-link-alt" aria-hidden="true" style="font-size: 0.7em; margin-left: 4px;"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="container">
+        <h1>Projects</h1>
+        <p>A collection of things I've built and am currently working on</p>
+      </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects section" aria-labelledby="projects-main-heading">
+      <div class="container">
+        <h2 id="projects-main-heading" class="sr-only">All Projects</h2>
+        
+        <div class="projects-grid">
+          <!-- Project 1: Clera App -->
+          <article class="project-card featured">
+            <div class="project-content">
+              <span class="project-number">01</span>
+              <h3>Clera — AI Investment Advisor</h3>
+              <p>
+                My flagship project: a personal AI investment advisor that democratizes access to 
+                sophisticated investment advice. Built with a multi-agent LangGraph system powered by Claude, 
+                Clera can analyze markets, manage portfolios, execute trades, and provide personalized insights — 
+                making professional financial guidance accessible to everyone.
+              </p>
+              <p>
+                <strong>Key Features:</strong> Multi-agent AI orchestration, real-time portfolio tracking via WebSocket, 
+                brokerage integration (SnapTrade + Alpaca), trade execution with confirmation flows, and comprehensive 
+                market research capabilities.
+              </p>
+              
+              <div class="project-tags">
+                <span class="tag">Next.js 15</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">LangGraph</span>
+                <span class="tag">Claude AI</span>
+                <span class="tag">AWS ECS</span>
+                <span class="tag">Supabase</span>
+                <span class="tag">Redis</span>
+              </div>
+              
+              <div class="project-links">
+                <a href="https://app.askclera.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <i class="fas fa-rocket" aria-hidden="true"></i>
+                  Launch App
+                </a>
+                <a href="https://askclera.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <i class="fas fa-globe" aria-hidden="true"></i>
+                  Website
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-image">
+              <img src="images/clera-app.png" alt="Clera AI Investment Advisor dashboard showing portfolio analytics, stock chart, risk score, and AI chat executing a trade" loading="lazy">
+            </div>
+          </article>
+
+          <!-- Project 2: Clera Marketing Site -->
+          <article class="project-card">
+            <div class="project-content">
+              <span class="project-number">02</span>
+              <h3>Clera Marketing Website</h3>
+              <p>
+                The public-facing website for Clera that explains our value proposition, showcases features, 
+                and handles waitlist signups. Built with a focus on conversion optimization and stunning 
+                visual design that matches our brand identity.
+              </p>
+              <p>
+                Features animated stock tickers, interactive feature cards, and a seamless waitlist 
+                integration. Designed to communicate complex financial technology in an approachable way.
+              </p>
+              
+              <div class="project-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">React</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Framer Motion</span>
+              </div>
+              
+              <div class="project-links">
+                <a href="https://askclera.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                  Visit Site
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-image">
+              <img src="images/clera-marketing-website.png" alt="Clera marketing website homepage featuring the hero section and feature cards" loading="lazy">
+            </div>
+          </article>
+
+          <!-- Project 3: Course Projects -->
+          <article class="project-card">
+            <div class="project-content">
+              <span class="project-number">03</span>
+              <h3>UCI Course Projects</h3>
+              <p>
+                A collection of projects from my coursework at UC Irvine, including work in 
+                user interaction software, data structures, algorithms, and software engineering. 
+                These projects have helped me build a strong foundation in computer science principles.
+              </p>
+              <p>
+                Topics include: responsive web design, algorithm optimization, database design, 
+                and human-computer interaction principles.
+              </p>
+              
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Java</span>
+                <span class="tag">C++</span>
+                <span class="tag">SQL</span>
+                <span class="tag">HCI</span>
+              </div>
+              
+              <div class="project-links">
+                <a href="contact.html" class="project-link">
+                  <i class="fas fa-envelope" aria-hidden="true"></i>
+                  Request Details
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-image logo">
+              <img src="images/github-logo.svg" alt="GitHub logo" loading="lazy">
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Summary Table -->
+    <section class="section" style="background: var(--bg-secondary);" aria-labelledby="tech-stack-heading">
+      <div class="container">
+        <h2 id="tech-stack-heading" style="text-align: center; margin-bottom: var(--spacing-2xl);">Tech Stack Overview</h2>
+        
+        <div style="overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse; background: var(--bg-card); border-radius: var(--radius-lg); overflow: hidden;">
+            <caption class="sr-only">Overview of technologies used in my projects</caption>
+            <thead>
+              <tr style="background: var(--bg-tertiary);">
+                <th scope="col" style="padding: var(--spacing-lg); text-align: left; color: var(--accent-primary); font-weight: 600; border-bottom: 1px solid var(--border-subtle);">Category</th>
+                <th scope="col" style="padding: var(--spacing-lg); text-align: left; color: var(--accent-primary); font-weight: 600; border-bottom: 1px solid var(--border-subtle);">Technologies</th>
+                <th scope="col" style="padding: var(--spacing-lg); text-align: left; color: var(--accent-primary); font-weight: 600; border-bottom: 1px solid var(--border-subtle);">Used In</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding: var(--spacing-lg); border-bottom: 1px solid var(--border-subtle); color: var(--text-primary);">Frontend</td>
+                <td style="padding: var(--spacing-lg); border-bottom: 1px solid var(--border-subtle); color: var(--text-secondary);">Next.js 15, TypeScript, TailwindCSS, Framer Motion</td>
+                <td style="padding: var(--spacing-lg); border-bottom: 1px solid var(--border-subtle); color: var(--text-secondary);">Clera App, Marketing Site, Portfolio</td>
+              </tr>
+              <tr>
+                <td style="padding: var(--spacing-lg); border-bottom: 1px solid var(--border-subtle); color: var(--text-primary);">Backend</td>
+                <td style="padding: var(--spacing-lg); border-bottom: 1px solid var(--border-subtle); color: var(--text-secondary);">FastAPI (Python), Redis, PostgreSQL</td>
+                <td style="padding: var(--spacing-lg); border-bottom: 1px solid var(--border-subtle); color: var(--text-secondary);">Clera App</td>
+              </tr>
+              <tr>
+                <td style="padding: var(--spacing-lg); border-bottom: 1px solid var(--border-subtle); color: var(--text-primary);">AI Orchestration</td>
+                <td style="padding: var(--spacing-lg); border-bottom: 1px solid var(--border-subtle); color: var(--text-secondary);">LangGraph, Claude (Anthropic), Multi-Agent Systems</td>
+                <td style="padding: var(--spacing-lg); border-bottom: 1px solid var(--border-subtle); color: var(--text-secondary);">Clera App</td>
+              </tr>
+              <tr>
+                <td style="padding: var(--spacing-lg); color: var(--text-primary);">Infrastructure</td>
+                <td style="padding: var(--spacing-lg); color: var(--text-secondary);">AWS ECS, Vercel, Supabase, Stripe</td>
+                <td style="padding: var(--spacing-lg); color: var(--text-secondary);">Clera App</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section" aria-labelledby="cta-heading">
+      <div class="container" style="text-align: center;">
+        <h2 id="cta-heading" style="margin-bottom: var(--spacing-lg);">Let's Connect</h2>
+        <p style="max-width: 600px; margin: 0 auto var(--spacing-2xl);">
+          Want to chat about AI, startups, or endurance sports? I'm always down to 
+          connect with interesting people.
+        </p>
+        <a href="contact.html" class="btn btn-primary">
+          Get in Touch
+          <i class="fas fa-arrow-right" aria-hidden="true" style="margin-left: 8px;"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">
+          &copy; 2025 Cristian Mendoza. Built with passion and too much coffee.
+        </p>
+        
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/cristianfmendoza" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:cristian@askclera.com" class="social-link" aria-label="Send Email">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+        
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Navigation Script -->
+  <script>
+    // Mobile menu toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    
+    navToggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('active');
+      navToggle.classList.toggle('active');
+      navToggle.setAttribute('aria-expanded', isOpen);
+    });
+
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        navToggle.classList.remove('active');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
+</html>
